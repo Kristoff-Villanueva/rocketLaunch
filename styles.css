@@ -1,0 +1,74 @@
+/* * {
+	border: 1px solid red;
+} */
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #292f33;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	/* background-color: #f2f2f3; */
+	flex-direction: column;
+}
+
+#mainSearch {
+	align-self: flex-start;
+	margin-top: 80px;
+	width: 80%;
+	max-width: 700px;
+	height: 40px;
+	border-radius: 5px;
+	font-style: italic;
+	border: 1px solid lightgray;
+	align-self: center;
+}
+
+#mainSearch::placeholder {
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+#flightDiv {
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: whitesmoke;
+	height: 60%;
+	width: 80%;
+	max-width: 700px;
+	margin-top: 40px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.launchDiv {
+	background-color: azure;
+	display: flex;
+	width: 95%;
+	border-radius: 5px;
+	padding: 20px;
+	margin-bottom: 15px;
+	align-items: center;
+}
+
+.flightImg {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.details {
+	margin-left: 20px;
+}
